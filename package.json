@@ -40,7 +40,7 @@
     }
   },
   "lint-staged": {
-    "*.{ts,tsx,js,jsx}": "eslint --fix",
-    "*.{json,md,graphql}": "prettier --fix"
+    "*.{ts,tsx,js,jsx}": "./node_modules/.bin/eslint --fix",
+    "*.{json,md,graphql}": "./node_modules/.bin/prettier --fix"
   }
 }
