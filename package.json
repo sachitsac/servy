@@ -40,9 +40,7 @@
     }
   },
   "lint-staged": {
-    "linters": {
-      "*{.ts,.tsx,.js,.jsx}": "eslint --fix",
-      "*{.json,.md,.graphql}": "prettier --fix"
-    }
+    "*{.ts,.tsx,.js,.jsx}": "eslint --fix",
+    "*{.json,.md,.graphql}": "prettier --fix"
   }
 }
