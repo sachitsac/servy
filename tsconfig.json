@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
+    "incremental": true,
     "target": "es2018", 
     "module": "commonjs",                     
     "lib": [
@@ -9,6 +10,8 @@
       "es2018",
       "dom"
     ],
+    "removeComments": false,
+    "pretty": true,
     "sourceMap": true,                     
     "outDir": "./dist",                        
     "rootDir": "./src",                       
@@ -30,5 +33,7 @@
     "skipLibCheck": true,                     
     "forceConsistentCasingInFileNames": true  
   },
-  "exclude": ["node_modules"],
+  "exclude": [
+    "node_modules"
+  ],
 }
