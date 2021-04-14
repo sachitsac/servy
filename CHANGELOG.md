@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/sachitsac/servy/compare/v0.0.2...v0.0.3) (2021-04-14)
+
+
+### Features
+
+* added an additional file to test build ([351daba](https://github.com/sachitsac/servy/commit/351daba39b8d36a9b1a5639ba54be6368a6ab24e))
+
 ### 0.0.2 (2021-04-14)
 
 

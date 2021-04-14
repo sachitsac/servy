@@ -1,6 +1,6 @@
 {
   "name": "servy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple typescript express server app core that will be user for graphql services",
   "main": "dist/index.js",
   "scripts": {
