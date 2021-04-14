@@ -4,3 +4,5 @@ export interface AddInput {
 }
 
 export const Sum = ({ a, b }: AddInput): number => a + b;
+
+export const Multiply = ({ a, b }: AddInput): number => a * b;
