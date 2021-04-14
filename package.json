@@ -8,6 +8,7 @@
     "build": "npm run clean && tsc",
     "start": "tsc & node .",
     "start:dev": "nodemon",
+    "serve": "node dist/index.js",
     "lint": "eslint . --ext ts",
     "lint:fix": "eslint . --fix --ext ts",
     "prepare": "husky install",
