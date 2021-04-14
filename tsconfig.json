@@ -4,6 +4,7 @@
     "target": "es2018",
     "module": "commonjs",
     "lib": ["es2016", "es2017", "es2018", "dom"],
+    "baseUrl": ".",
     "sourceMap": true,
     "outDir": "./dist",
     "rootDir": "./src",
