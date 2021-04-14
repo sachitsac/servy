@@ -16,6 +16,7 @@
     "noFallthroughCasesInSwitch": true,
     "moduleResolution": "node",
     "typeRoots": ["./types", "./node_modules/@types"],
+    "types": ["node", "@types/jest"],
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "experimentalDecorators": true,
