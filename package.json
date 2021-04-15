@@ -4,7 +4,7 @@
   "description": "Simple typescript express server app core that will be user for graphql services",
   "main": "dist/index.js",
   "scripts": {
-    "clean": "rm -rf dist",
+    "clean": "rimraf dist",
     "build": "npm run clean && tsc",
     "start": "tsc & node .",
     "start:dev": "nodemon",
@@ -47,6 +47,7 @@
     "lint-staged": "^10.5.4",
     "nodemon": "^2.0.7",
     "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
     "standard-version": "^9.2.0",
     "ts-jest": "^26.5.4",
     "ts-node": "^9.1.1",
