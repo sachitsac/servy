@@ -1,4 +1,5 @@
 import { Sum } from './math';
+export * from './math';
 
 type F = (name: string) => string;
 type T = () => F;
