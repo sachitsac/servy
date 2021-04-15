@@ -3,9 +3,12 @@
   "version": "0.0.3",
   "description": "Simple typescript express server app core that will be user for graphql services",
   "main": "dist/index.js",
+  "engines": {
+    "node": ">=12"
+  },
   "scripts": {
     "clean": "rimraf dist",
-    "build": "npm run clean && tsc",
+    "build": "npm run clean && tsc -p tsconfig.json",
     "start": "tsc & node .",
     "start:dev": "nodemon",
     "serve": "node dist/index.js",
