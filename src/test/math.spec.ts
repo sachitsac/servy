@@ -1,4 +1,4 @@
-import { Sum, Multiply } from './math';
+import { Sum, Multiply } from '../math';
 
 describe('test', () => {
   test('add', () => {
