@@ -1,4 +1,4 @@
-import { Sum } from './math';
+import { Sum } from './Math';
 
 type F = (name: string) => string;
 type T = () => F;
