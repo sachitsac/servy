@@ -1,17 +1,17 @@
-import { Sum, Multiply } from '../src/Math';
+import { Math } from '../src/Math';
 
 describe('test', () => {
   test('add', () => {
     const a = 1;
     const b = 1;
     const result = 2;
-    expect(Sum({ a, b })).toEqual(result);
+    expect(Math().sum({ a, b })).toEqual(result);
   });
 
   test('multiplies', () => {
     const a = 2;
     const b = 3;
     const result = 6;
-    expect(Multiply({ a, b })).toEqual(result);
+    expect(Math().multiply({ a, b })).toEqual(result);
   });
 });
